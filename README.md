@@ -23,6 +23,8 @@
 
 ![image](https://github.com/divyanshursahu/AWS-SAA/assets/96013623/3b85f69a-8799-4f0f-986f-36d0ed8537b6)
 
+<img src="https://github.com/divyanshursahu/AWS-SAA/assets/96013623/3b85f69a-8799-4f0f-986f-36d0ed8537b6" width="80%" height="90%" style="display: block; margin: 0 auto" >
+
 ## **AWS Regions**
 
 - AWS has regions all around the world
@@ -34,4 +36,10 @@
 
 If you need to launch a new application, where should you do it?
 
-![Alt text](<assets/which region to choose.png>)
+<img src ="assets/which region to choose.png" width="70%" height="">
+
+- [Compliance]() with data governance and legal requirements: data never leaves a region without your explicit permission
+- [Proximity]() to customers: reduced latency
+- [Available services]() within a Region: new services
+and new features aren’t available in every Region
+- [Pricing:]() pricing varies region to region and is transparent in the service pricing page.

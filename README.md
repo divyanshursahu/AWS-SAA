@@ -2,6 +2,7 @@
 - [**AWS Global Infrastructure**](#aws-global-infrastructure)
 - [**AWS Regions**](#aws-regions)
 - [**How to choose an AWS Region ?**](#how-to-choose-an-aws-region-)
+- [**AWS Availability Zones**](#aws-availability-zones)
 
 
 ## **AWS Cloud Use Cases**
@@ -23,7 +24,7 @@
 
 ![image](https://github.com/divyanshursahu/AWS-SAA/assets/96013623/3b85f69a-8799-4f0f-986f-36d0ed8537b6)
 
-<img src="https://github.com/divyanshursahu/AWS-SAA/assets/96013623/3b85f69a-8799-4f0f-986f-36d0ed8537b6" width="80%" height="90%" style="display: block; margin: 0 auto" >
+<!-- <img src="https://github.com/divyanshursahu/AWS-SAA/assets/96013623/3b85f69a-8799-4f0f-986f-36d0ed8537b6" width="80%" height="90%" style="display: block; margin: 0 auto" > -->
 
 ## **AWS Regions**
 
@@ -34,12 +35,26 @@
 
 ## **How to choose an AWS Region ?**
 
-If you need to launch a new application, where should you do it?
+If you need to launch a new application, where should you do it? 
 
-<img src ="assets/which region to choose.png" width="70%" height="">
+<img src ="assets/which region to choose.png" width="70%" height="" style="display: block; margin: 10 auto">
 
 - [Compliance]() with data governance and legal requirements: data never leaves a region without your explicit permission
 - [Proximity]() to customers: reduced latency
 - [Available services]() within a Region: new services
 and new features aren’t available in every Region
 - [Pricing:]() pricing varies region to region and is transparent in the service pricing page.
+
+## **AWS Availability Zones**
+
+- Each region has many availablility zones(usually 3, min is 3, max is 6). Example:
+  - ap-southeast-2a
+  - ap-southeast-2b
+  - ap-southeast-2c
+
+- Each availability zone(AZ is one or more discrete data centers with redundanct power, networking, and connectivity)
+- They're separate from each other,so that the're isolated from disasters
+- They're connected with high bandwidth, ultra-low latency networking
+  
+  <img src="assets/Availability zones.png" width="50%" height="" >
+

@@ -3,6 +3,7 @@
 - [**AWS Regions**](#aws-regions)
 - [**How to choose an AWS Region ?**](#how-to-choose-an-aws-region-)
 - [**AWS Availability Zones**](#aws-availability-zones)
+- [**Tour of the AWS Console**](#tour-of-the-aws-console)
 
 
 ## **AWS Cloud Use Cases**
@@ -57,4 +58,20 @@ and new features aren’t available in every Region
 - They're connected with high bandwidth, ultra-low latency networking
   
   <img src="assets/Availability zones.png" width="50%" height="" >
+
+## **Tour of the AWS Console**
+
+- #### AWS had Global Services: <img src="assets/aws global service.png" width="5%" height="">
+  - Identity and Access Management (IAM)
+  - Route 53 (DNS Service)
+  - CloudFront (Content Delivery Network)
+  - WAF (Web Application Firewall)
+
+- #### Most AWS services are Region-scoped:  <img src="assets/region scoped.png" width="5%" height="">
+  - Amazon EC2 (IAAS)
+  - Elastic Beanstalk (PAAS)
+  - Lambda (Function as a Service)
+  - Rekognition (Software as a Service)
+
+- #### Region Table: https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services
 

@@ -1,6 +1,7 @@
 - [**AWS Cloud Use Cases**](#aws-cloud-use-cases)
 - [**AWS Global Infrastructure**](#aws-global-infrastructure)
 - [**AWS Regions**](#aws-regions)
+- [**How to choose an AWS Region ?**](#how-to-choose-an-aws-region-)
 
 
 ## **AWS Cloud Use Cases**
@@ -28,3 +29,9 @@
 - Names can be us-east-1, eu-west-3...
 - A region is a cluster of data centers
 - Most AWS services are region scoped(if you use the same service in two different regions, you will be charged twice)
+
+## **How to choose an AWS Region ?**
+
+If you need to launch a new application, where should you do it?
+
+![Alt text](<assets/which region to choose.png>)

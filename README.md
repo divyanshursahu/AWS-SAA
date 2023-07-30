@@ -74,5 +74,7 @@ and new features aren’t available in every Region
   - Lambda (Function as a Service)
   - Rekognition (Software as a Service)
 
-- #### Region Table: https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services
+- **Region Table:** https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services
 
+# [IAM Section](IAM.md)
+ 

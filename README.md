@@ -61,13 +61,13 @@ and new features aren’t available in every Region
 
 ## **Tour of the AWS Console**
 
-- #### AWS had Global Services: <img src="assets/aws global service.png" width="5%" height="">
+- #### AWS had Global Services: <img src="assets/aws global service.png" width="4%" height="">
   - Identity and Access Management (IAM)
   - Route 53 (DNS Service)
   - CloudFront (Content Delivery Network)
   - WAF (Web Application Firewall)
 
-- #### Most AWS services are Region-scoped:  <img src="assets/region scoped.png" width="5%" height="">
+- #### Most AWS services are Region-scoped:  <img src="assets/region scoped.png" width="4%" height="">
   - Amazon EC2 (IAAS)
   - Elastic Beanstalk (PAAS)
   - Lambda (Function as a Service)

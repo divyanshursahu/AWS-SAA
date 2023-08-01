@@ -128,7 +128,7 @@ and new features aren’t available in every Region
   - Lambda Function Roles
   - Roles for CloudFormation
 
-  <img src="assets/IAM-role.png" width="" height="" style="display: block; margin: 20 auto">
+  <img src="assets/IAM-role.png" width="50%" height="" style="display: block; margin: 20 auto">
 
 ## **IAM Security Tools**
 

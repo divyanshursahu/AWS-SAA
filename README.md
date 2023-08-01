@@ -96,11 +96,11 @@ and new features aren’t available in every Region
 
 - In AWS you apply the least privilege principle: don't give more  permissions than a user needs
 
-  <img src="assets/IAM-permissions.png" width="" height="" style="display: block; margin: 20 auto">
+  <img src="assets/IAM-permissions.png" width="70%" height="" style="display: block; margin: 20 auto">
 
 ## **IAM Policies Inheritance**
 
-<img src="assets/IAM-policy2.png" width="" height="" style="display: block; margin: 20 auto">
+<img src="assets/IAM-policy2.png" width="80%" height="" style="display: block; margin: 20 auto">
 
 ## **IAM Policies Structure**
 
@@ -117,7 +117,7 @@ and new features aren’t available in every Region
   - Resource: list of resources to which the actions applied to
   - Condition: conditions for when this policy is in effect (optional)
 
-<img src="assets/IAM3.png" width="" height="" style="display: block; margin: 20 auto">
+<img src="assets/IAM3.png" width="70%" height="" style="display: block; margin: 20 auto">
 
 ## **IAM Roles for Services**
 

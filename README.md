@@ -78,3 +78,65 @@ and new features aren’t available in every Region
 
 # [IAM Section](IAM.md)
  
+## **IAM: Users & Groups**
+
+- IAM = Identity and Access Management, Global service
+- Root account created by default, shouldn't be used or shared
+- Users are people within your organization, and can be grouped
+- Groups only contain users, not other groups
+- Users don't have to belong to a group, and user can belong to multiple groups
+
+  <img src="assets/IAM1.png" width="" height="" style="display: block; margin: 20 auto">
+
+## **IAM: Permissions**
+
+- Users or Groups: can be assigned JSON documents called policies
+
+- These policies define the permissions of the users
+
+- In AWS you apply the least privilege principle: don't give more  permissions than a user needs
+
+  <img src="assets/IAM-permissions.png" width="" height="" style="display: block; margin: 20 auto">
+
+## **IAM Policies Inheritance**
+
+<img src="assets/IAM-policy2.png" width="" height="" style="display: block; margin: 20 auto">
+
+## **IAM Policies Structure**
+
+- Consists of
+  - Version:policylanguageversion,alwaysinclude“2012-10- 17”
+  - Id:anidentifierforthepolicy(optional)
+  - Statement:oneormoreindividualstatements(required)
+
+- Statements consists of
+  - Sid: an identifier for the statement(optional)
+  - Effect: whether the statement allows or denies access (Allow, Deny)
+  - Principal: account/user/role to which this policy applied to
+  - Action: list of actions this policy allows or denies
+  - Resource: list of resources to which the actions applied to
+  - Condition: conditions for when this policy is in effect (optional)
+
+<img src="assets/IAM3.png" width="" height="" style="display: block; margin: 20 auto">
+
+## **IAM Roles for Services**
+
+- Some AWS service will need to perform actions on your behalf
+- To do so, we will assign permissions to AWS services with IAM Roles
+- Common roles:
+  - EC2 Instance Roles
+  - Lambda Function Roles
+  - Roles for CloudFormation
+
+  <img src="assets/IAM-role.png" width="" height="" style="display: block; margin: 20 auto">
+
+## **IAM Security Tools**
+
+- **IAM Credentials Report (account-level)**
+  - a report that lists all your account's users and the status of their various credemtials
+ 
+  <br/>
+
+- **IAM Access Advisor (user-level)**
+  - Access advisor shows the service permissions granted to a user and when those services were last accessed.
+  - You can use this information to revise your policies.
